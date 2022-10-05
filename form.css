@@ -1,0 +1,73 @@
+p {
+  text-align: center;
+}
+
+body {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: white;
+  padding-top: 1.3em;
+  padding-left: 1em;
+  padding-right: 1.3em;
+  padding-bottom: 1em;
+}
+
+.sign-up {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0px;
+}
+
+.free {
+  margin: 0px;
+}
+
+label {
+  display: block;
+  margin-top: 1.3em;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  margin-top: 1.3em;
+  background-color: rgb(77, 139, 77);
+  border: none;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  color: white;
+  transition: 0.9s;
+}
+
+label,
+.free,
+div > a {
+  font-size: 1.14em;
+}
+
+div > p > a {
+  text-decoration: none;
+}
+form > p {
+  color: white;
+  background-color: blue;
+}
+
+form > p > a > span {
+  color: #c1dac1;
+  text-decoration: none;
+}
+
+button:hover {
+  padding: 2em;
+}
